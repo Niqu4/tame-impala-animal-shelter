@@ -1,0 +1,355 @@
+body{
+
+	background-color: #F2CE97;
+
+}
+
+.main{
+
+	display: flex;
+	flex-direction: row;
+	height: 557px;
+	width: 1000px;
+	margin: 50px auto;
+	background-color: #FFFFFF;
+	box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.title{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	width: 100%;
+	padding: 5%;
+	padding-top: unset;
+
+}
+
+.article{
+
+	padding: 5%;
+	padding-bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.title-bold{
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 0px;
+
+}
+
+.avatar{
+
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	overflow: hidden;
+	height: 58px;
+	width: 58px;
+
+}
+
+.name{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+
+}
+
+.author{
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	padding: 2%;
+	transition: 0.5s;
+
+}
+
+.text{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	font-weight: 200;
+	line-height: 26px;
+
+}
+
+span{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #000000;
+	font-weight: 800;
+
+}
+
+.footer{
+
+	box-shadow: 0 -3px 14px 0 rgba(168, 204, 244, 0.2);
+	width: 100%;
+	height: 80px;
+	margin-left: -10%;
+	padding-left: 10%;
+	padding-right:  10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.date{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	color: #000000;
+	font-weight: 400;
+
+}
+
+div . img{
+
+	height: 16px;
+
+}
+/***
+**** Секция под постом
+***/
+.comment-section{ 
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 20%;
+
+}
+
+a{
+
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #FFFFFF;
+	transition: 0.5s;
+
+}
+
+nav{
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+a.hovered:hover{
+
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+	background-color: #FFFFFF;
+	color: #ff0844;
+	border-radius: 10px;
+
+}
+
+.pet-profile {
+
+	transition: 0.5s;
+
+}
+/**
+*** hover profile
+**/
+a.pet-profile:hover{
+
+	text-decoration: none;
+	font-weight: 900;
+	background-color: #ff6874;
+	border-radius: 10px;
+
+}
+/**
+*** hover profile
+**/
+a.pet-profile:hover p.text{
+
+	color: #FFFFFF;
+
+}
+
+div.author:hover{
+
+	background-color: #FFFFFF;
+	border-radius: 10px; 
+
+}
+
+div.author:hover .name{
+
+	color: #ff0844;
+
+}
+
+img.img-buttons:hover{
+
+	background-color: #F8668B;
+	border-radius: 30%;
+
+}
+
+.row{
+
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.dog-img{
+
+	height: 160px;
+	width: 160px;
+	margin: 9px;
+	margin-top: unset;
+
+}
+
+.row-desc{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+/**
+*** Slideshow of each pet
+**/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.caption-text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.about-pet{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 3%;
+
+}
+
+.button {
+    background-color: #ff0844;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 3px 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
